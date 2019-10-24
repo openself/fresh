@@ -13,7 +13,7 @@ It currently works with [Traffic](https://github.com/pilu/traffic), [Martini](ht
 
 ## Installation
 
-    go get github.com/pilu/fresh
+    go get github.com/openself/fresh
 
 ## Usage
 
@@ -37,7 +37,7 @@ Here is a sample config file with the default settings:
 
     root:              .
     tmp_path:          ./tmp
-    include:
+    include:           ./path1:./path2
     build_name:        runner-build
     build_log:         runner-build-errors.log
     valid_ext:         .go, .tpl, .tmpl, .html
@@ -58,13 +58,4 @@ Here is a sample config file with the default settings:
 
 ## More
 
-* [Mailing List](https://groups.google.com/d/forum/golang-fresh)
-
-## Contributing
-
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
-
+* me
